@@ -14,7 +14,12 @@ Este projeto é uma aplicação web interativa construída com o Streamlit, que 
 * A busca é realizada por meio da BrasilAPI, que retorna informações sobre o endereço, bairro, cidade e estado.
 * O sistema retorna os dados ou exibe mensagens de erro, caso o CEP não seja encontrado ou a API não esteka disponível.
 
-## Como Usar
+## Como 
+#### 1. Executando a aplicação
+* Cole o seguinte texto no terminal
+```bash
+python -m streamlit run c:/Users/lcipriano/Desktop/Validador_CEP/validador_final.py
+```
 #### 1. Carregar Arquivo de CEPs:
 * Clique em "Enviar sua planilha com a coluna 'CEP'" para carregar um arquivo no formato CSV ou XLSX.
 * Certifique-se de que a planilha contenha uma coluna chamada "CEP" ou um nome similar. Caso contrário, o código indentificará a coluna corretamente, desde que o nome corresponda ao padrão.
