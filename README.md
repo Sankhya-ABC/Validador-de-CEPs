@@ -20,13 +20,13 @@ Este projeto é uma aplicação web interativa construída com o Streamlit, que 
 ```bash
 python -m streamlit run c:/Users/lcipriano/Desktop/Validador_CEP/validador_final.py
 ```
-#### 1. Carregar Arquivo de CEPs:
+#### 2. Carregar Arquivo de CEPs:
 * Clique em "Enviar sua planilha com a coluna 'CEP'" para carregar um arquivo no formato CSV ou XLSX.
 * Certifique-se de que a planilha contenha uma coluna chamada "CEP" ou um nome similar. Caso contrário, o código indentificará a coluna corretamente, desde que o nome corresponda ao padrão.
-#### 2. Visualização de resultado:
+#### 3. Visualização de resultado:
 * Após o upload, a aplicação exibirá uma tabela com todos os CEPs validados, além de um gráfico de pizza indicando a proporção de CEPs válidos e inválidos.
 * Você poderá realizar o download dos CEPs válidos e inválidos, conforme sua necessidade.
-#### 3. Consulta de Endereço por CEP:
+#### 4. Consulta de Endereço por CEP:
 * Abaixo da tabela, há um campo de texto para que o usuário insira um CEP de 8 dígitos.
 * A aplicação realizará a consulta à BrasilAPI e exibirá as informações do endereço correspondente ao CEP digitado.
 
